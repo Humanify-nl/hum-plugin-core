@@ -129,3 +129,6 @@ class Hum_Block_Area {
 function hum_block_area() {
 	return Hum_Block_Area::instance();
 }
+
+
+// In template usage: hum_block_area()->show( 'entry-header' );
